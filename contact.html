@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bella Dickenson</title>
+    <link rel="stylesheet" href="style.css" rel="stylesheet">
+    <link href="timeline.css" type="text/css" rel="stylesheet">
+    <link href="form.css" type="text/css" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=PT+Serif:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0752a3902.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <header class="header">
+      <a href="" class="logo">Bella Dickenson</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li><a href="/portfolio.html">Portfolio</a></li>
+        <li><a href="#freelance">Freelance</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </header>
+
+    <div class="containter-form">
+    <div class="form-flex">
+	<h1>Ratings Form</h1>
+	<form id="feedbackForm" onsubmit="return ratingForm()">
+		<label for="userMessage">Leave a Message, we will get back soon!:</label><br>
+		<textarea id="userMessage" name="userMessage" rows="4" cols="50"></textarea><br><br>
+
+		<label>Rate our work (1-5 stars):</label><br>
+		<input type="radio" id="1star" name="rating" value="1">
+		<label for="1star">☆</label><br>
+		<input type="radio" id="2star" name="rating" value="2">
+		<label for="2star">☆☆</label><br>
+		<input type="radio" id="3star" name="rating" value="3">
+		<label for="3star">☆☆☆</label><br>
+		<input type="radio" id="4star" name="rating" value="4">
+		<label for="4star">☆☆☆☆</label><br>
+		<input type="radio" id="5star" name="rating" value="5">
+		<label for="5star">☆☆☆☆☆</label><br><br>
+
+		<label for="email">Enter your email:</label><br>
+		<input type="email" id="email" name="email"><br><br>
+
+		<input type="submit" value="Submit" class="button">
+	</form>
+    </div>
+</div>
+</div>
+    </div>
+    </div>
+
+    <footer>
+      <!-- <ul>
+        <li><a href="http://www.instagram.com/belladickenson" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/belladickenson/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="mailto:bellajadedickenson@gmail.com"><i class="far fa-envelope"></i></a></li>
+      </ul> -->
+      <p>© Bella Dickenson, <script>document.write(new Date().getFullYear())</script></p>
+    </footer>
+
+    <script>
+		function ratingForm() {
+			var userMessage = document.getElementById("userMessage").value;
+			var rating = document.querySelector('input[name="rating"]:checked');
+			var email = document.getElementById("email").value;
+
+            var regex = /^\S+@\S+\.\S+$/;
+			var isValidEmail = regex.test(email);
+			var words = userMessage.split(' ').length;
+
+			alert("Message: " + userMessage + "\nRating: " + rating.value + "\nEmail: " + email + "\nWords: " + words + "\nValid email: " + isValidEmail);
+
+			return false;
+		}
+	</script>
+  </body>
+
+</html>
+
+<script src="index.js"></script>
+</body>
+
+</html>

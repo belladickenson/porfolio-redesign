@@ -1,0 +1,27 @@
+.containter-form{
+    padding-top: 90px;
+    height: 95vh;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    background-color:#458361;
+    padding: 9px;
+    color:white;
+    text-decoration:none;
+    border-radius: 3px;
+    font-size:14px;
+  }
+  .button:hover{
+    background-color:#387252;
+    color:white;
+    text-decoration:none;
+  }
+  h1 {
+      padding-bottom: 12px;
+  }
