@@ -28,34 +28,148 @@
       </ul>
     </header>
 
-    <div class="containter-form">
-    <div class="form-flex">
-	<h1>Ratings Form</h1>
-	<form id="feedbackForm" onsubmit="return ratingForm()">
-		<label for="userMessage">Leave a Message, we will get back soon!:</label><br>
-		<textarea id="userMessage" name="userMessage" rows="4" cols="50"></textarea><br><br>
+    <div class="container_about">
 
-		<label>Rate our work (1-5 stars):</label><br>
-		<input type="radio" id="1star" name="rating" value="1">
-		<label for="1star">☆</label><br>
-		<input type="radio" id="2star" name="rating" value="2">
-		<label for="2star">☆☆</label><br>
-		<input type="radio" id="3star" name="rating" value="3">
-		<label for="3star">☆☆☆</label><br>
-		<input type="radio" id="4star" name="rating" value="4">
-		<label for="4star">☆☆☆☆</label><br>
-		<input type="radio" id="5star" name="rating" value="5">
-		<label for="5star">☆☆☆☆☆</label><br><br>
+      <div class="contact-container">
 
-		<label for="email">Enter your email:</label><br>
-		<input type="email" id="email" name="email"><br><br>
+        <section class="ftco-section">
+          <div class="container">
+            <!-- <div class="row justify-content-center">
+              <div class="col-md-6 text-center mb-5">
+                <h2 class="heading-section">Contact Form #02</h2>
+              </div>
+            </div> -->
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <div class="wrapper">
+                  <div class="row no-gutters">
+                    <div class="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+                      <div class="contact-wrap w-100 p-md-5 p-4">
+                        <h3 class="mb-4">Get in touch</h3>
+                        <div id="form-message-warning" class="mb-4"></div> 
+                        <div id="form-message-success" class="mb-4">
+                          Your message was sent, thank you!
+                        </div>
+                        <form method="POST" id="contactForm" name="contactForm" data-netlify="true" class="contactForm">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label class="label" for="name"> Name</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                              </div>
+                            </div>
+                            <div class="col-md-6"> 
+                              <div class="form-group">
+                                <label class="label" for="email">Email Address</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label class="label" for="subject">Subject</label>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <label class="label" for="#">Message</label>
+                                <textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                              </div>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="form-group">
+                                <input type="submit" value="Send Message" class="main-button">
+                                <div class="submitting"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-5 d-flex align-items-stretch">
+                      <div class="info-wrap w-100 p-md-5 p-4">
+                        <h3>Let's get in touch</h3>
+                        <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+                        <div class="dbox w-100 d-flex align-items-start">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-map-marker"></span>
+                          </div>
+                          <div class="text pl-3">
+                            <p><span>Lincoln, NE</span></p>
+                          </div>
+                        </div>
+                        <div class="dbox w-100 d-flex align-items-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-phone"></span>
+                          </div>
+                          <div class="text pl-3">
+                            <p><span>(308) 385-8446</span></p>
+                          </div>
+                        </div>
+                        <div class="dbox w-100 d-flex align-items-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-paper-plane"></span>
+                          </div>
+                          <div class="text pl-3">
+                            <p><span><a href="mailto:idickenson2@huskers.unl.edu">idickenson2@huskers.unl.edu</a></span></p>
+                          </div>
+                        </div>
+                        <div class="dbox w-100 d-flex align-items-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-globe"></span>
+                          </div>
+                          <div class="text pl-3">
+                            <p><span>@belladickenson</span></p>
+                          </div>
+                        </div>
+                    <div class="dbox w-100 d-flex align-items-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                      <span class="fa fa-globe"></span>
+                    </div>
+                    <div class="text pl-3">
+                    <p><span>Website</span> <a href="#">yoursite.com</a></p>
+                    </div>
+                  </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-		<input type="submit" value="Submit" class="button">
-	</form>
-    </div>
-</div>
-</div>
-    </div>
+        <!-- <div class="contact-info">
+          <h2>Contact me!</h2>
+          <p>Reach out regarding freelance or just get in touch!</p>
+          <a href="https://github.com/belladickenson/would-you-rather" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/belladickenson/would-you-rather" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="form-info">
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </div> -->
+
+
+      </div>
+      
+
+
+
     </div>
 
     <footer>
@@ -66,22 +180,6 @@
       </ul> -->
       <p>© Bella Dickenson, <script>document.write(new Date().getFullYear())</script></p>
     </footer>
-
-    <script>
-		function ratingForm() {
-			var userMessage = document.getElementById("userMessage").value;
-			var rating = document.querySelector('input[name="rating"]:checked');
-			var email = document.getElementById("email").value;
-
-            var regex = /^\S+@\S+\.\S+$/;
-			var isValidEmail = regex.test(email);
-			var words = userMessage.split(' ').length;
-
-			alert("Message: " + userMessage + "\nRating: " + rating.value + "\nEmail: " + email + "\nWords: " + words + "\nValid email: " + isValidEmail);
-
-			return false;
-		}
-	</script>
   </body>
 
 </html>
