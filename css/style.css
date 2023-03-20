@@ -315,7 +315,23 @@ footer p {
 }
 
 /* Portfolio Pages */
+.back-button{
+  margin-top:20px;
+}
+.back-text {
+  text-decoration: none!important;
+  color:#458361;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size:15px;
 
+}
+.back-text:hover{
+  color:#3F7859;
+}
+.back-button i{
+  padding-right:3px;
+}
 
 
 /* nav view */
