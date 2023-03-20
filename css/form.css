@@ -8155,7 +8155,7 @@
   .h1, .h2, .h3, .h4, .h5 {
     line-height: 1.5;
     font-weight: 400;
-    font-family: "Poppins", Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     color: #000; }
   
   .bg-primary {
@@ -8166,7 +8166,7 @@
   }
 
   .ftco-section {
-    padding: 7em 0; }
+    padding: 7.5em 0; }
   
   .ftco-no-pt {
     padding-top: 0; }
@@ -8320,3 +8320,37 @@
     font-size: 16px;
     font-weight: bold; }
   
+.contact-links i{
+  color:white;
+  font-size: 40px;
+}
+
+.contact-element{
+  display:flex;
+}
+.contact-element i{
+  font-size:25px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links i {
+  padding: 0px 10px 0px 10px;
+}
+
+.contact-links i:hover {
+  color:#BABABA;
+}
+
+.main-button{
+  border:none;
+}
+
+@media screen and (max-width: 767px) {
+  .ftco-section {
+    padding: 0 0;
+  }
+}
