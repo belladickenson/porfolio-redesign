@@ -336,13 +336,13 @@ footer p {
 padding-top:80px;
 padding-bottom:80px;
 height:100vh;
+background: #f8f8f8;
 }
 
 
 
 /* START PORTFOLIO */
 .tm-portfolio {
-  background: #f8f8f8;
   padding-top: 80px;
 }
 .tm-portfolio .container-port {
