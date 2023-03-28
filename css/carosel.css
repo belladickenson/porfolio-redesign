@@ -316,6 +316,7 @@ ol {
 .project-tags{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .project-tags p {
@@ -323,7 +324,7 @@ ol {
     border-radius: 4px;
     color:white;
     font-size: 17px;
-    margin: 0px 5px;
+    margin: 5px 5px;
     padding: 5px 5px;
 }
 
