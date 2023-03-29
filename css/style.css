@@ -162,6 +162,47 @@ footer p {
   padding-top:120px;
 }
 
+/* Index page */
+.index-background {
+  background-color:#F8F8F8;
+}
+.skill-home {
+margin: 20px;
+}
+
+.skill-home h3 {
+  text-align:center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color:#387252
+}
+
+.skill-home h4 {
+  text-align:center;
+  color:#387252
+}
+
+.skills-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-tags p {
+  background-color: #dae2dc;
+  border-radius: 13px;
+  color:#373c3e;
+  font-size: 15px;
+  margin: 5px 5px;
+  padding: 7px 7px;
+}
+
+.skills-tags p:hover{
+  background-color: #a1b2a4;
+}
+
+
+
 /* About page */
 .container_about {
   padding-top: 68px;
@@ -202,10 +243,19 @@ footer p {
 
 .bio-right{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left:13px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13px;
+    flex-direction: column;
 }
+
+.bio-right h3 {
+  color:#387252;
+  font-family: 'Playfair Display', serif;
+  font-size:27px;
+}
+
+
 .bio p{
   font-size:17px
 }
