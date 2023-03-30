@@ -167,7 +167,13 @@ footer p {
   background-color:#F8F8F8;
 }
 .skill-home {
-margin: 20px;
+background-color: #F2F8F3;
+}
+
+.skills-margin{
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin: 0px 80px;
 }
 
 .skill-home h3 {
@@ -201,6 +207,11 @@ margin: 20px;
   background-color: #a1b2a4;
 }
 
+.thumb-img {
+  background-color:#387252;
+  height: 280px;
+  width: 280px;
+}
 
 
 /* About page */
