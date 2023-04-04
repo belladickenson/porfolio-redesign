@@ -214,6 +214,19 @@ background-color: #F2F8F3;
 }
 
 
+.project-home h3{
+  text-align:center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color:#387252
+}
+
+.project-home h4{
+  color:white;
+}
+
+
+
 /* About page */
 .container_about {
   padding-top: 68px;
