@@ -492,6 +492,11 @@ footer p {
   display: block;
 }
 
+.project-desc {
+  margin-bottom: 30px;
+}
+
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .portfolio-photo {

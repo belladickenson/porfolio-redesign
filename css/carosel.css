@@ -2,11 +2,6 @@ html {
     line-height: 1
 }
 
-ol,
-ul {
-    list-style: none
-}
-
 table {
     border-collapse: collapse;
     border-spacing: 0
@@ -98,17 +93,6 @@ h2 {
 
 p {
     line-height: 1.5
-}
-
-
-ul,
-ol {
-    margin-bottom: 1em;
-    margin-left: 2em
-}
-
-ul {
-    list-style-type: disc
 }
 
 ol {
